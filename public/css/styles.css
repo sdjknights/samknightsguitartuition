@@ -137,7 +137,13 @@ h6 {
 
 @media (min-width:576px) {
     .nav-main li {
-        font-size: 6rem;
+        font-size: 5rem;
+    }
+}
+
+@media (min-width:768px) and (max-width:1058px) {
+    .nav-main li {
+        font-size: 4rem;
     }
 }
 
@@ -325,6 +331,20 @@ a:hover .nav-icon,
     padding-right: 16px;
 }
 
+.ul-div{
+    margin-top: 80px;
+}
+
+@media (min-width: 550px) {
+    .ul-div{
+        margin-top: 0;
+    }
+}
+
+#about li:nth-child(odd) {
+    color: var(--tan-light);
+}
+
 #about h2 {
     writing-mode: vertical-lr;
     text-orientation: sideways;
@@ -334,8 +354,14 @@ a:hover .nav-icon,
     left: 0;
 }
 
-#about picture {
+/* #about picture {
     padding: 0 0 80px 80px;
+} */
+
+@media (min-width: 768px) {
+    #about picture {
+        padding: 0 0 80px 80px;
+    }
 }
 
 #about li {
@@ -525,13 +551,12 @@ a:hover .nav-icon,
 }
 
 #testimonials h2 {
-    top: 0;
-    left: 0;
+    right: 0;
     color: var(--tan-medium);
     font-size: 2.5rem;
     text-align: center;
     /* width: 100%; */
-    padding: 10px 0;
+    padding: 10px 10px 10px 0;
 }
 
 @media (min-width: 800px) {
@@ -637,7 +662,7 @@ a:hover .nav-icon,
     /* margin-right: 500px; */
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
     #pricing h2 {
         display: initial;
         writing-mode: tb-rl;
@@ -651,6 +676,7 @@ a:hover .nav-icon,
 @media (min-width: 1000px) {
     #pricing h2 {
         display: none;
+        margin-left: 0;
     }
 }
 
@@ -703,7 +729,7 @@ a:hover .nav-icon,
     padding-top: 400px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
     #contact {
         padding-top: 0;
     }
@@ -806,34 +832,29 @@ a:hover .nav-icon,
 }
 
 .map {
-    width: 300px;
-    height: 200px;
+    max-width: 355.56px;
+    max-height: 200px;
+    margin: 0 auto;
 }
 
 @media (min-width: 576px) {
     .map {
-        width: 500px;
-        height: 400px;
+    width: 533.33px;
+    height: 300px;
+    /* margin-right: 5px; */
     }
 }
 
-/* .map {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 75%;
+@media (min-width: 967px) {
+    .map {
+        margin-right: 0;
+    }
 }
 
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 90%;
+.map iframe {
+    width: 100%;
     height: 100%;
-    border: none;
-  } */
+}
 
 address ul {
     /* padding-left: 0; */
