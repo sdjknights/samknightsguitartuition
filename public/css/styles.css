@@ -726,13 +726,7 @@ a:hover .nav-icon,
 }
 
 #contact {
-    padding-top: 400px;
-}
-
-@media (min-width: 992px) {
-    #contact {
-        padding-top: 0;
-    }
+    padding-top: 100px;
 }
 
 #contact.row {
