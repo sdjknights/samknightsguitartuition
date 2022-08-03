@@ -387,9 +387,11 @@ a:hover .nav-icon,
     padding-top: 10%;
 }
 
-/* #video section {
-    min-height: initial;
-} */
+@media (min-width: 500px) and (max-width: 1023px) {
+    #videos {
+        padding-bottom: 50px;
+    }
+}
 
 #videos .highlight {
     background-color: var(--tan-strong);
@@ -627,9 +629,16 @@ a:hover .nav-icon,
     padding-top: 50px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
     #pricing {
-        padding-top: 200px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    #pricing {
+        margin-bottom: 200px;
     }
 }
 
