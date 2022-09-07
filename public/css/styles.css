@@ -989,6 +989,10 @@ address ul {
     color: var(--tan-strong);
     padding: 12px calc(100%/12) 0;
     background-color: var(--tan-light);
+    position:absolute;
+    /* bottom: 0; */
+    right: 0;
+    left: 0;
 }
 
 @media(min-width:768px){
@@ -1020,4 +1024,26 @@ address ul {
 #footer .copy {
     color: var(--tan-medium);
     text-align: center;
+}
+
+#submit h1 {
+    background-color: var(--tan-strong);
+    color: var(--tan-light);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#submit p {
+    font-size: large;
+    padding: 0 0 0 20px;
+    color: var(--maroon-light);
+}
+
+#submit p a {
+    color: var(--maroon-medium);
+    font-size: smaller;
+}
+
+#submit #footer {
+    bottom: 0;
 }

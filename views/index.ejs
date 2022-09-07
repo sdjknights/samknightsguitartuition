@@ -1,346 +1,361 @@
 <%- include("partials/header") %>
+</head>
 
-<section id="hero">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 col-md-6 hero-img">
-        <h1><a href="/" class="link-light">Sam Knights Guitar Tuition</a></h1>
-        <a href="#contact" class="btn" role="button" aria-pressed="true">Book Now</a>
+<body>
+  <section id="hero">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 hero-img">
+          <h1><a href="/" class="link-light">Sam Knights Guitar Tuition</a></h1>
+          <a href="#contact" class="btn" role="button" aria-pressed="true">Book Now</a>
+        </div>
+        <div class="col-12 col-md-6 hero-nav link-light">
+          <address>
+            <ul class="nav-contact">
+              <li><a href="tel:07983850334">07983 850 334</a></li>
+              <li><a href="mailto:sdjknights@hotmail.com" class="lh-lg">sdjknights@hotmail.com</a></li>
+              <li>
+                <a href="https://www.facebook.com/samknightsguitartuition" target="_blank" class="lh-lg">
+                  <img src="/img/icon-facebook.svg" class="nav-icon" loading="lazy" alt="Facebook icon">Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCD36fIg8OKi12MKXLrk4c5w">
+                  <img src="/img/icon-youtube.svg" class="nav-icon" loading="lazy" alt="YouTube icon">YouTube</a>
+              </li>
+              <li>
+                <a href="https://www.tiktok.com/@samknightsguitar" target="_blank">
+                  <img src="/img/icon-tiktok.svg" class="nav-icon" loading="lazy" alt="TikTok icon">TikTok</a>
+              </li>
+            </ul>
+          </address>
+
+          <div class="nav-div">
+            <ul class="nav-main">
+              <li><a href="#about">About</a></li>
+              <li><a href="#videos">Videos</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="col-12 col-md-6 hero-nav link-light">
-        <address>
-          <ul class="nav-contact">
-            <li><a href="tel:07983850334">07983 850 334</a></li>
-            <li><a href="mailto:sdjknights@hotmail.com" class="lh-lg">sdjknights@hotmail.com</a></li>
-            <li>
-              <a href="https://www.facebook.com/samknightsguitartuition" target="_blank" class="lh-lg">
-                <img src="/img/icon-facebook.svg" class="nav-icon" loading="lazy" alt="Facebook icon">Facebook</a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/channel/UCD36fIg8OKi12MKXLrk4c5w">
-                <img src="/img/icon-youtube.svg" class="nav-icon" loading="lazy" alt="YouTube icon">YouTube</a>
-            </li>
-            <li>
-              <a href="https://www.tiktok.com/@samknightsguitar" target="_blank">
-                <img src="/img/icon-tiktok.svg" class="nav-icon" loading="lazy" alt="TikTok icon">TikTok</a>
-            </li>
+    </div>
+    <button onclick="topFunction()" id="backToTopBtn" title="Back to Top" class="back-to-top">Back to Top</button>
+  </section>
+
+  <section id="hero-2">
+    <div class="highlight">
+      <div class="row gx-0 hero-2-row">
+        <div class="col-12 col-lg-4">
+          <div class="card card-bg" id="card1" onmouseover="onCardHover(id)" onmouseout="onEndCardHover(id)">
+            <h3 class="card-text">Just Getting Started?</h3>
+            <p class="d-none card-text card-text-p center-child-vertically">I can show you the basics and get you up and
+              rocking in no time.</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="card card-bg" id="card2" onmouseover="onCardHover(id)" onmouseout="onEndCardHover(id)">
+            <h3 class="card-text">Experienced Player?</h3>
+            <p class="d-none card-text card-text-p center-child-vertically">Maybe you've hit a dead end or want to learn
+              something completely new.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="card card-bg" id="card3" onmouseover="onCardHover(id)" onmouseout="onEndCardHover(id)">
+            <h3 class="card-text">No matter what...</h3>
+            <p class="d-none card-text card-text-p center-child-vertically">I deliver a tailor-made syllabus for each
+              student, whatever your age,
+              ability and
+              goals.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="about">
+    <div class="highlight">
+      <h2>About</h2>
+      <div class="row gx-0">
+        <div class="col-12 col-xl-6">
+          <picture>
+            <source media="(min-width:1000px)" srcset="/img/about800.png">
+            <source media="(min-width:768px)" srcset="/img/about500.png">
+            <source media="(min-width:576px)" srcset="/img/about350.png">
+            <source media="(min-width:426px)" srcset="/img/about230.png">
+            <img src="/img/about-tiny.png"" alt=" guitar" loading="lazy">
+          </picture>
+        </div>
+        <div class="col-12 col-xl-6 ul-div">
+          <ul>
+            <li>10+ years' teaching experience</li>
+            <li class="max-width-50">BA (Hons) Music from Leeds College of Music</li>
+            <li>100s of students taught</li>
+            <li>Classical, acoustic, electric, ukulele, bass and mandolin.</li>
+            <li>Classical, rock, pop, blues, jazz, folk.</li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="videos">
+    <div class="highlight">
+      <h2>Videos</h2>
+      <div>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@samknightsguitar/video/7060784608249416965"
+          data-video-id="7060784608249416965" style="max-width: 605px;min-width: 320px;">
+          <section> <a target="_blank" title="@samknightsguitar"
+              href="https://www.tiktok.com/@samknightsguitar">@samknightsguitar</a> We Don&#39;t Talk About Bruno Guitar
+            Cover <a title="cover" target="_blank" href="https://www.tiktok.com/tag/cover">#cover</a> <a
+              title="guitarteacher" target="_blank" href="https://www.tiktok.com/tag/guitarteacher">#guitarteacher</a>
+            <a title="guitarcover" target="_blank" href="https://www.tiktok.com/tag/guitarcover">#guitarcover</a> <a
+              title="classicalguitar" target="_blank"
+              href="https://www.tiktok.com/tag/classicalguitar">#classicalguitar</a> <a title="soundtrack"
+              target="_blank" href="https://www.tiktok.com/tag/soundtrack">#soundtrack</a> <a title="disney"
+              target="_blank" href="https://www.tiktok.com/tag/disney">#disney</a> <a title="encanto" target="_blank"
+              href="https://www.tiktok.com/tag/encanto">#encanto</a> <a title="wedonttalkaboutbruno" target="_blank"
+              href="https://www.tiktok.com/tag/wedonttalkaboutbruno">#wedonttalkaboutbruno</a> <a target="_blank"
+              title="♬ original sound - Sam" href="https://www.tiktok.com/music/original-sound-7060784484551002886">♬
+              original sound - Sam</a> </section>
+        </blockquote>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+      </div>
+    </div>
+    <div class="highlight-2">
+      <h3>More at:</h3>
+      <div class="more">
+        <a href="https://www.tiktok.com/@samknightsguitar" target="_blank">
+          <img src="/img/icon-tiktok.svg" loading="lazy" alt="TikTok icon">TikTok</a>
+        <a href="https://www.youtube.com/channel/UCD36fIg8OKi12MKXLrk4c5w" target="_blank">
+          <img src="/img/icon-youtube.svg" loading="lazy" alt="YouTube icon">YouTube</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="highlight">
+      <h2>Testimonials</h2>
+      <div class="banner">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-carousel-item">
+                <h3>E. Eardley</h3>
+                <p>Sam tutored my son for several years. He was excellent in his teaching approach and really helped my
+                  son make progress with his guitar skills. He was very reliable and always friendly and would happily
+                  recommend his services to anyone thinking of taking up lessons.<span><a href="<%= reviewURL %>">Read
+                      More...</a></span></p>
+                <div>*****</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-carousel-item">
+                <h3>E. Scott</h3>
+                <p>Sam is an excellent teacher, very patient and easy to understand and get along with.
+                  I would highly recommend lessons with Sam.<span><a href="<%= reviewURL %>">Read More...</a></span></p>
+                <div>*****</div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-carousel-item">
+                <h3>T. Nicholson</h3>
+                <p>Sam’s a very talented player and a patient teacher.
+                  Thoroughly enjoyed the lessons. 👍👍🎸<span><a href="<%= reviewURL %>">Read More...</a></span></p>
+                <div>*****</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="highlight">
+      <h2>Pricing</h2>
+      <div class="row gx-0">
+        <div class="col-12 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Weekly</h3>
+              <ul>
+                <li>Pay each week</li>
+                <li>£20 per half hour lesson</li>
+                <li>£80-£100 per month</li>
+                <li>First lesson free</li>
+              </ul>
+              <a href="#contact" class="btn" role="button" aria-pressed="true">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Monthly</h3>
+              <ul>
+                <li>Pay once a month</li>
+                <li>£15 per half hour lesson</li>
+                <li>£60-£75 per month</li>
+                <li>First lesson free</li>
+              </ul>
+              <a href="#contact" class="btn" role="button" aria-pressed="true">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="row gx-0 contact-row">
+      <div class="col-12 col-xl-6 contact-col center-child-vertically">
+        <address class="center-child-vertically">
+          <h2 class="order-3">Contact</h2>
+          <div class="row gx-0 justify-content-end my-5">
+            <div class="col-12 col-xl-6 gx-0">
+              <ul>
+                <li>
+                  <a href="tel:07983850334">
+                    <img src="/img/icon-phone.svg" class="contact-icon" loading="lazy" alt="phone icon">
+                    07983 850 334</a>
+                </li>
+                <li>
+                  <a href="mailto:sdjknights@hotmail.com">
+                    <img src="/img/icon-mail.svg" class="contact-icon" loading="lazy" alt="email icon">
+                    sdjknights@hotmail.com</a>
+                </li>
+              </ul>
+              <hr>
+              <ul class="address">
+                <li>8 Thornfield Avenue</li>
+                <li>Waterfoot</li>
+                <li>Rossendale</li>
+                <li>Lancashire</li>
+                <li>BB4 9AP</li>
+              </ul>
+              <hr>
+              <ul>
+                <li><a href="https://www.tiktok.com/@samknightsguitar" target="_blank">
+                    <img src="/img/icon-tiktok.svg" class="contact-icon" loading="lazy" alt="TikTok icon">TikTok</a>
+                </li>
+                <li><a href="https://www.youtube.com/channel/UCD36fIg8OKi12MKXLrk4c5w">
+                    <img src="/img/icon-youtube.svg" class="contact-icon" loading="lazy" alt="YouTube icon">YouTube</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-12 col-xl-6 center-child-vertically justify-content-center justify-content-lg-end justify-content-xl-center gx-0 map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9449.304987156307!2d-2.2515205!3d53.6946325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f10f1bb745cb029!2sSam%20Knights%20Guitar%20Tuition!5e0!3m2!1sen!2suk!4v1647299850017!5m2!1sen!2suk"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+          </div>
         </address>
+      </div>
 
-        <div class="nav-div">
-          <ul class="nav-main">
-            <li><a href="#about">About</a></li>
-            <li><a href="#videos">Videos</a></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#faq">FAQ</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button onclick="topFunction()" id="backToTopBtn" title="Back to Top" class="back-to-top">Back to Top</button>
-</section>
-
-<section id="hero-2">
-  <div class="highlight">
-    <div class="row gx-0 hero-2-row">
-      <div class="col-12 col-lg-4">
-        <div class="card card-bg" id="card1" onmouseover="onCardHover(id)" onmouseout="onEndCardHover(id)">
-          <h3 class="card-text">Just Getting Started?</h3>
-          <p class="d-none card-text card-text-p center-child-vertically">I can show you the basics and get you up and
-            rocking in no time.</p>
-        </div>
-      </div>
-      <div class="col-12 col-lg-4">
-        <div class="card card-bg" id="card2" onmouseover="onCardHover(id)" onmouseout="onEndCardHover(id)">
-          <h3 class="card-text">Experienced Player?</h3>
-          <p class="d-none card-text card-text-p center-child-vertically">Maybe you've hit a dead end or want to learn
-            something completely new.
-          </p>
-        </div>
-      </div>
-      <div class="col-12 col-lg-4">
-        <div class="card card-bg" id="card3" onmouseover="onCardHover(id)" onmouseout="onEndCardHover(id)">
-          <h3 class="card-text">No matter what...</h3>
-          <p class="d-none card-text card-text-p center-child-vertically">I deliver a tailor-made syllabus for each
-            student, whatever your age,
-            ability and
-            goals.</p>
-        </div>
-      </div>
-    </div>
-</section>
-
-<section id="about">
-  <div class="highlight">
-    <h2>About</h2>
-    <div class="row gx-0">
-      <div class="col-12 col-xl-6">
-        <picture>
-          <source media="(min-width:1000px)" srcset="/img/about800.png">
-          <source media="(min-width:768px)" srcset="/img/about500.png">
-          <source media="(min-width:576px)" srcset="/img/about350.png">
-          <source media="(min-width:426px)" srcset="/img/about230.png">
-          <img src="/img/about-tiny.png"" alt="guitar" loading="lazy">
-        </picture>
-      </div>
-      <div class="col-12 col-xl-6 ul-div">
-        <ul>
-          <li>10+ years' teaching experience</li>
-          <li class="max-width-50">BA (Hons) Music from Leeds College of Music</li>
-          <li>100s of students taught</li>
-          <li>Classical, acoustic, electric, ukulele, bass and mandolin.</li>
-          <li>Classical, rock, pop, blues, jazz, folk.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="videos">
-  <div class="highlight">
-    <h2>Videos</h2>
-    <div>
-      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@samknightsguitar/video/7060784608249416965"
-        data-video-id="7060784608249416965" style="max-width: 605px;min-width: 320px;">
-        <section> <a target="_blank" title="@samknightsguitar"
-            href="https://www.tiktok.com/@samknightsguitar">@samknightsguitar</a> We Don&#39;t Talk About Bruno Guitar
-          Cover <a title="cover" target="_blank" href="https://www.tiktok.com/tag/cover">#cover</a> <a
-            title="guitarteacher" target="_blank" href="https://www.tiktok.com/tag/guitarteacher">#guitarteacher</a> <a
-            title="guitarcover" target="_blank" href="https://www.tiktok.com/tag/guitarcover">#guitarcover</a> <a
-            title="classicalguitar" target="_blank"
-            href="https://www.tiktok.com/tag/classicalguitar">#classicalguitar</a> <a title="soundtrack" target="_blank"
-            href="https://www.tiktok.com/tag/soundtrack">#soundtrack</a> <a title="disney" target="_blank"
-            href="https://www.tiktok.com/tag/disney">#disney</a> <a title="encanto" target="_blank"
-            href="https://www.tiktok.com/tag/encanto">#encanto</a> <a title="wedonttalkaboutbruno" target="_blank"
-            href="https://www.tiktok.com/tag/wedonttalkaboutbruno">#wedonttalkaboutbruno</a> <a target="_blank"
-            title="♬ original sound - Sam" href="https://www.tiktok.com/music/original-sound-7060784484551002886">♬
-            original sound - Sam</a> </section>
-      </blockquote>
-      <script async src="https://www.tiktok.com/embed.js"></script>
-    </div>
-  </div>
-  <div class="highlight-2">
-    <h3>More at:</h3>
-    <div class="more">
-      <a href="https://www.tiktok.com/@samknightsguitar" target="_blank">
-        <img src="/img/icon-tiktok.svg" loading="lazy" alt="TikTok icon">TikTok</a>
-      <a href="https://www.youtube.com/channel/UCD36fIg8OKi12MKXLrk4c5w" target="_blank">
-        <img src="/img/icon-youtube.svg" loading="lazy" alt="YouTube icon">YouTube</a>
-    </div>
-  </div>
-</section>
-
-<section id="testimonials">
-  <div class="highlight">
-    <h2>Testimonials</h2>
-    <div class="banner">
-      <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="testimonial-carousel-item">
-              <h3>E. Eardley</h3>
-              <p>Sam tutored my son for several years.  He was excellent in his teaching approach and really helped my son make progress with his guitar skills.  He was very reliable and always friendly and would happily recommend his services to anyone thinking of taking up lessons.<span><a href="<%= reviewURL %>">Read More...</a></span></p>
-              <div>*****</div>
+      <div class="col-12 col-xl-6 contact-col">
+        <form action="/submit" method="post">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Name:</label>
+            </div>
+            <div clas="col-75">
+              <input type="text" id="name" name="name" required="true" class="width-100 z-1">
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="testimonial-carousel-item">
-              <h3>E. Scott</h3>
-              <p>Sam is an excellent teacher, very patient and easy to understand and get along with.
-                I would highly recommend lessons with Sam.<span><a href="<%= reviewURL %>">Read More...</a></span></p>
-              <div>*****</div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email:</label>
+            </div>
+            <div clas="col-75">
+              <input type="email" id="email" name="email" required="true" class="width-100 z-1">
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="testimonial-carousel-item">
-              <h3>T. Nicholson</h3>
-              <p>Sam’s a very talented player and a patient teacher.
-                Thoroughly enjoyed the lessons. 👍👍🎸<span><a href="<%= reviewURL %>">Read More...</a></span></p>
-              <div>*****</div>
+          <div class="row">
+            <div class="col-25">
+              <label for="phone">Phone:</label>
+            </div>
+            <div clas="col-75">
+              <input type="tel" id="phone" name="phone" required="true" class="width-100 z-1">
             </div>
           </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="pricing">
-  <div class="highlight">
-    <h2>Pricing</h2>
-    <div class="row gx-0">
-      <div class="col-12 col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title">Weekly</h3>
-            <ul>
-              <li>Pay each week</li>
-              <li>£20 per half hour lesson</li>
-              <li>£80-£100 per month</li>
-              <li>First lesson free</li>
-            </ul>
-            <a href="#contact" class="btn" role="button" aria-pressed="true">Book Now</a>
+          <div class="row">
+            <div class="col-25">
+              <label for="querytype">Query Type:</label>
+            </div>
+            <div clas="col-75">
+              <select id="querytype" name="querytype" required="true" class="width-100 z-1">
+                <option value="lesson">Lesson Enquiry</option>
+                <option value="performance">Performance Enquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-lg-6">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title">Monthly</h3>
-            <ul>
-              <li>Pay once a month</li>
-              <li>£15 per half hour lesson</li>
-              <li>£60-£75 per month</li>
-              <li>First lesson free</li>
-            </ul>
-            <a href="#contact" class="btn" role="button" aria-pressed="true">Book Now</a>
+          <div class="row">
+            <div class="col-25">
+              <label for="message">Message:</label>
+            </div>
+            <div clas="col-75">
+              <textarea name="message" rows="10" cols="30" required="true" class="width-100 z-1"></textarea>
+            </div>
           </div>
-        </div>
+          <input type="submit" value="Submit" style="float: right;" class="contact-button">
+        </form>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id="contact">
-  <div class="row gx-0 contact-row">
-    <div class="col-12 col-xl-6 contact-col center-child-vertically">
-      <address class="center-child-vertically">
-        <h2 class="order-3">Contact</h2>
-        <div class="row gx-0 justify-content-end my-5">
-          <div class="col-12 col-xl-6 gx-0">
-            <ul>
-              <li>
-                <a href="tel:07983850334">
-                  <img src="/img/icon-phone.svg" class="contact-icon" loading="lazy" alt="phone icon">
-                07983 850 334</a>
-              </li>
-              <li>
-                <a href="mailto:sdjknights@hotmail.com">
-                  <img src="/img/icon-mail.svg" class="contact-icon" loading="lazy" alt="email icon">
-                  sdjknights@hotmail.com</a>
-              </li>
-            </ul>
-            <hr>
-            <ul class="address">
-              <li>8 Thornfield Avenue</li>
-              <li>Waterfoot</li>
-              <li>Rossendale</li>
-              <li>Lancashire</li>
-              <li>BB4 9AP</li>
-            </ul>
-            <hr>
-            <ul>
-              <li><a href="https://www.tiktok.com/@samknightsguitar" target="_blank">
-                  <img src="/img/icon-tiktok.svg" class="contact-icon" loading="lazy" alt="TikTok icon">TikTok</a></li>
-              <li><a href="https://www.youtube.com/channel/UCD36fIg8OKi12MKXLrk4c5w">
-                  <img src="/img/icon-youtube.svg" class="contact-icon" loading="lazy" alt="YouTube icon">YouTube</a></li>
-            </ul>
-          </div>
-          <div
-            class="col-12 col-xl-6 center-child-vertically justify-content-center justify-content-lg-end justify-content-xl-center gx-0 map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9449.304987156307!2d-2.2515205!3d53.6946325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2f10f1bb745cb029!2sSam%20Knights%20Guitar%20Tuition!5e0!3m2!1sen!2suk!4v1647299850017!5m2!1sen!2suk"
-              style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-        </div>
-      </address>
+  <section id="faq">
+    <div class="faq-h2">
+      <h2>FAQ</h2>
     </div>
-
-    <div class="col-12 col-xl-6 contact-col">
-      <form action="/submit" method="post">
-        <div class="row">
-          <div class="col-25">
-            <label for="name">Name:</label>
-          </div>
-          <div clas="col-75">
-            <input type="text" id="name" name="name" required="true" class="width-100 z-1">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="email">Email:</label>
-          </div>
-          <div clas="col-75">
-            <input type="email" id="email" name="email" required="true" class="width-100 z-1">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="phone">Phone:</label>
-          </div>
-          <div clas="col-75">
-            <input type="tel" id="phone" name="phone" required="true" class="width-100 z-1">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="querytype">Query Type:</label>
-          </div>
-          <div clas="col-75">
-            <select id="querytype" name="querytype" required="true" class="width-100 z-1">
-              <option value="lesson">Lesson Enquiry</option>
-              <option value="performance">Performance Enquiry</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-25">
-            <label for="message">Message:</label>
-          </div>
-          <div clas="col-75">
-            <textarea name="message" rows="10" cols="30" required="true" class="width-100 z-1"></textarea>
-          </div>
-        </div>
-        <input type="submit" value="Submit" style="float: right;" class="contact-button">
-      </form>
-    </div>
-  </div>
-</section>
-
-<section id="faq">
-  <div class="faq-h2">
-    <h2>FAQ</h2>
-  </div>
     <div class="faq-l">
       <h3>Q. I'm left-handed. Should I learn right-handed?</h3>
-      <p>A. It's completely up to you, though it's best to stick with one way, and I'd personally recommend embracing your leftiness as it will make a lot of things much easier for you.</p>
+      <p>A. It's completely up to you, though it's best to stick with one way, and I'd personally recommend embracing
+        your leftiness as it will make a lot of things much easier for you.</p>
     </div>
     <div class="faq-r">
       <h3>Q. Should I learn acoustic or electric?</h3>
-      <p>A. There is an old myth that acoustic is easier and should be mastered before picking up an electric, but most people would now argue more the reverse - electric guitars have thinner necks, can have lighter gauge strings and you can play with an amp and effects so you'll sound really cool in no time!</p>
+      <p>A. There is an old myth that acoustic is easier and should be mastered before picking up an electric, but most
+        people would now argue more the reverse - electric guitars have thinner necks, can have lighter gauge strings
+        and you can play with an amp and effects so you'll sound really cool in no time!</p>
     </div>
     <div class="faq-l">
       <h3>Q. Should I get a guitar before even starting lessons?</h3>
-      <p>A. Yes, absolutely! There is no greater supplement to learning than being able to go home and practice everything you've just learnt.</p>
+      <p>A. Yes, absolutely! There is no greater supplement to learning than being able to go home and practice
+        everything you've just learnt.</p>
     </div>
     <div class="faq-r">
       <h3>Q. Am I too old to learn?</h3>
-      <p>A. 80 is the new 18! About half of the students I've taught over the years have been retirees - it's a brilliant age to dive into new hobbies and skills.</p>
+      <p>A. 80 is the new 18! About half of the students I've taught over the years have been retirees - it's a
+        brilliant age to dive into new hobbies and skills.</p>
     </div>
     <div class="faq-l">
       <h3>Q. What guitar should I get?</h3>
-      <p>A. Whatever guitar you like! Something that excites or interests you or just looks plain cool. When you've played for a while, you'll have a better idea of what you want from a guitar, but for now, just grab anything.</p>
+      <p>A. Whatever guitar you like! Something that excites or interests you or just looks plain cool. When you've
+        played for a while, you'll have a better idea of what you want from a guitar, but for now, just grab anything.
+      </p>
     </div>
     <div class="faq-r">
       <h3>Q. Should/can I take graded exams?</h3>
-      <p>A. Grades are a good, structured way to push yourself and your abilities, but hey, they're not for everyone - I support both grades and less formal paths.</p>
+      <p>A. Grades are a good, structured way to push yourself and your abilities, but hey, they're not for everyone - I
+        support both grades and less formal paths.</p>
     </div>
-</section>
+  </section>
 
-<%- include("partials/footer") %>
+  <%- include("partials/footer") %>

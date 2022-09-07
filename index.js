@@ -15,6 +15,7 @@ app.use(express.static("public"));
 
 //Mailgun dependencies
 const mailgun = require("mailgun-js");
+const res = require('express/lib/response');
 const DOMAIN = process.env.DOMAIN;
 const mg = mailgun({
   apiKey: process.env.APIKEY,
@@ -44,12 +45,16 @@ app.post("/submit", function (req, res) {
   };
   mg.messages().send(data, function (error, body) {
       if (error) {
-        res.send("Argh")
+        res.send("Error")
       } else {
-        res.redirect("/")
+        res.render("submit");
       }
   });
 })
+
+app.get("/submit", function (req, res) {
+  res.render("submit");
+});
 
 app.listen(3000, function () {
   console.log("Server started on port 3000");
