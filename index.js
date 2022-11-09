@@ -56,6 +56,10 @@ app.get("/submit", function (req, res) {
   res.render("submit");
 });
 
+app.get("/video-test", function(req,res) {
+  res.render("video-test");
+})
+
 app.listen(3000, function () {
   console.log("Server started on port 3000");
 });
